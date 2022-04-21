@@ -1,0 +1,12 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{
+    display:flex; flex-flow:column nowrap;
+    justify-content:center; align-items:center;
+    width:100%;height:100vh;
+    background:#fafafc;
+    font-family: 'Dongle', sans-serif;
+    font-size:40px; color:rgb(71, 102, 151);}
+
+.text{margin-bottom:-.25em;}
