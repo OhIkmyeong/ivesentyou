@@ -1,9 +1,8 @@
-const FAKE_URL = 'https://namu.wiki/w/보내드렸습니다%5E%5E';
-const TIME = 1000;
+const TIME = 2000;
 
-async function init() {
+async function init(URL) {
     await change_text();
-    await change_url();
+    await change_url(URL);
 }//init
 
 function change_text() {
@@ -16,12 +15,9 @@ function change_text() {
     });
 }//change_text
 
-function change_url() {
+function change_url(URL) {
     setTimeout(() => {
-        location.href = FAKE_URL;
+        location.href = URL;
         res();
     }, TIME / 2);
 }//change_url
-
-/* 실행 */
-init();

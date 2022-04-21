@@ -10,3 +10,17 @@ html,body{
     font-size:40px; color:rgb(71, 102, 151);}
 
 .text{margin-bottom:-.25em;}
+
+.ivesentyou{
+    font-size:10vw; color:aquamarine;
+    animation: king .1s infinite both;
+}
+
+@keyframes king {
+    0%{transform:translate(-5px,-5px);}
+    25%{transform:translate(5px,-5px);}
+    50%{transform:translate(-5px,0);}
+    50%{transform:translate(5px,0);}
+    100%{transform:translate(-5px,5px);}
+    100%{transform:translate(5px,5px);}
+}
